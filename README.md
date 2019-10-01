@@ -4,8 +4,6 @@ Game of Life
 Travis Mayer
 002273275
 
-
-
 Citations:
 Data Structures and Algorithms in C++ 2nd Edition Textbook
 https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int
