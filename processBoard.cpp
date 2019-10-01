@@ -91,8 +91,7 @@ processBoard::processBoard(string file, string gameMode, string outputType) //co
         shadowArray[i][j] = 'X';
         previousArray[i][j] = 'X';
       }
-
-      else if (lineChar == '-') //assign '-' values based on probability map
+      else //if (lineChar == '-') //assign '-' values based on probability map, if any other value including no value at all, assumes it is dead cell
       {
         boardArray[i][j] = '-';
         shadowArray[i][j] = '-';
